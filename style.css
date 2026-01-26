@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+/* body{
+    background-color: #1A0B2E;
+} */
+/* sharde style design */
+.btn-premary{
+    font-size: 16px;
+    font-weight: 600px;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(to right, #F7E93F,#FB09B4,#9100F8);
+}
+.btn-second{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #00FF88;
+    padding: 12px 16px;
+    border-color: #00FF88;
+    border-radius: 50px;
+    cursor: pointer;
+    background: none;
+}
+
+header{
+    background: #1A0B2E;
+    
+}
+ 
+
+/* navbar design */
+nav{
+    max-width: 1400px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    
+}
+
+nav>p{
+    font-size: 32px;
+    font-family: inter;
+
+}
+nav>p>span{
+    background: linear-gradient(to right, #F7E93F,#FB09B4,#9100F8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    font-family: inter;
+    cursor: pointer;
+}
+
+/* header banner section design */
+#main-bg{
+    background-image: url(./pic/hero-bg.png);
+    width: 100%;
+    height: 760px;
+    
+}
+
+.header-banner{
+    max-width: 550px;
+    height: 560px;
+    background-image: url(./pic/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header-banner img{
+    /* border: 1px solid black; */
+    margin-right: 90px;
+}
+.header-banner>p{
+    background: #00FF88;
+    color:black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    position: relative;
+    left: 40%;
+    bottom: 28%;
+}
+
+.header-contaient{
+    /* display: inline; */
+    /* margin: 0 auto;
+    align-items: center;
+    justify-content: center; */
+    border: 1px solid wheat;
+    
+}
+
+.main-text{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: inter;
+}
+
+.main-pera{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-family: inter;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+}
+
+/* about podcast section design */
+
+#podcast-sec{
+    background-color: #1A0B2E;
+}
+.podcast{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: inter;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.podcast-pera{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-family: inter;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 80px;
+}
+hr{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.about-title{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid gainsboro; */
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-contain{
+    display: inline;
+    
+
+}
+.about-contain>h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #00FF88;
+
+}
+
+.about-contain>p{
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+
+/* .box-1{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 25px;
+    padding: 40px 108px;
+    display: inline;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px;
+    gap: 30px;
+    grid-template-areas: 
+    "box-1 box-2 box-2";
+} */
+
+
+/* episode card design */
+
+#episode-sec{
+    background-color: #1A0B2E;
+    padding-top: 200px;
+}
+
+.episode{
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 40px;
+    background-color: #1A0B2E;
+}
+.episode-card{
+    max-width: 380px;
+    height: 440px;
+    display: inline;
+    border-radius: 20px;
+    background-color: rgba(37, 13, 68, 1);
+    box-shadow: 0 4px 4px 0;
+
+}
