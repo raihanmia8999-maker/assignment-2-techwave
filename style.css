@@ -71,6 +71,10 @@ div{
     cursor: pointer;
 }
 
+.menu-bar{
+    display: none;
+}
+
 /* header banner section design */
 #main-bg{
     background-image: url(./pic/hero-bg.png);
@@ -215,14 +219,9 @@ hr{
 
 .choose-section{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-    grid-gap: 10px;
-
-    /* grid-template-areas: 
-    "box-1 box-1 box-2 box-2 box-2"
-    'box-1 box-1 box-3 box-3 box-3'
-    'box-4 box-4 box-4 box-5 box-5'; */
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    /* grid-gap: 10px; */
 }
 
 .choose-section{
@@ -231,21 +230,25 @@ hr{
     padding-bottom: 7.5em;
 }
 #box-1{
-    grid-row: span 2;
-    grid-column: span 1;
+    grid-row: span 4;
+    grid-column: span 4;
 }
 
 #box-2{
-    grid-column: span 2;
+    grid-column: span 8;
+    grid-row: span 2;
 }
 #box-3{
-    grid-column: span 2;
+    grid-column: span 8;
+    grid-row: span 2;
 }
 #box-4{
-    grid-column: span 2;
+    grid-column: span 8;
+    grid-row: span 2;
 }
 #box-5{
-    grid-column: span 1;
+    grid-column: span 4;
+    grid-row: span 4;
 }
 
 .box-1, .box-2,.box-3, .box-4, .box-5{
@@ -480,4 +483,62 @@ footer>p{
     text-align: center;
     margin-top: 32px;
     font-family: inter;
+}
+
+
+@media screen and (max-width: 576px){
+    .menu, #btn-1{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    header{
+        padding: 0 10px;
+    }
+
+    .about-title{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 10px;
+    }
+
+    .choose-section{
+        display: inline;
+    }
+
+    .episode{
+        display: inline;
+
+    }
+    .episode-card{
+        padding: 30px;
+        max-width: 380px;
+        height: 440px;
+        display: inline;
+        border-radius: 20px;
+        background-color: rgba(37, 13, 68, 1);
+        box-shadow: 0 4px 4px 0;
+    }
+
+    .host{
+        display: inline;
+        text-align: center;
+        
+    }
+
+    .host-image{
+        align-items: center;
+        justify-content: center;
+    }
+    .social-icon{
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+    background-image: url(./pic/footer-bg.png);
+    width: 576px;
+    /* height: 412px; */
+    padding-top: 150px;
 }
